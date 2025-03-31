@@ -80,12 +80,13 @@ function playGame() {
         const computerTurn = getComputerChoice();
         playRound(humanTurn, computerTurn);
         
+//Keep Score
         console.log("Human choice:", humanScore);
         console.log("Computer choice:", computerScore);
       
     }
 
-    
+//Winner
     if (humanScore > computerScore) {  
         console.log("Game Over! You win");
     } else if (computerScore > humanScore) {
