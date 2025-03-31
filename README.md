@@ -1,2 +1,4 @@
 # RockPaperScissors
-First JS Project.
+A JS project that requires
+basic problem solving skills and
+structure.
