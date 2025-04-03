@@ -61,8 +61,6 @@ function playRound(humanChoice, computerChoice) {
 }  
 
 }
-console.log("humanChoice", "computerChoice");
-
 
 
 //Game Starts Here
@@ -87,9 +85,9 @@ function playGame() {
     }
 
 //Winner
-    if (humanScore > computerScore) {  
+    if (humanTurn > computerTurn) {  
         console.log("Game Over! You win");
-    } else if (computerScore > humanScore) {
+    } else if (computerTurn > humanTurn) {
         console.log("Game Over! Computer wins!");
     } else {
         console.log("Game Over! It's a tie! Play again")
